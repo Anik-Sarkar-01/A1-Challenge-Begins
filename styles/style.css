@@ -48,18 +48,23 @@ body {
     padding: 0px;
 }
 
+.banner-container a{
+    margin: 32px 0px 45px 0px;
+}
+
 .banner-container button {
-    width: 244px;
-    height: 65px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    margin: 32px 0px 45px 0px;
     padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+    font-family: Azeret Mono;
 }
 
+.banner-container button:hover{
+    cursor: pointer;
+}
 /* shared styles */
 
 .text-center {
@@ -267,7 +272,6 @@ body {
     width: 1140px;
     height: 313px;
     padding: 64px 48px 64px 48px;
-    border: 2px solid red;
     margin: 0 auto;
     border-radius: 16px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -356,6 +360,13 @@ footer {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
     margin-top: 80px;
+}
+
+footer .footer-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .footer-icons {
