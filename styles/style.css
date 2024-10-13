@@ -109,9 +109,6 @@ nav ul .download-btn:hover {
 
 
 /* shared styles */
-.text-center {
-    text-align: center;
-}
 
 .title {
     color: rgb(13, 19, 33);
@@ -128,7 +125,7 @@ nav ul .download-btn:hover {
     opacity: 0.7;
 }
 
-/* why web development styles starts here */
+/* why web development styles */
 .why-web-dev-section {
     max-width: 1140px;
     max-height: 1393px;
@@ -209,7 +206,7 @@ nav ul .download-btn:hover {
     cursor: pointer;
 }
 
-/* inspiration section styles starts here */
+/* inspiration section styles starts*/
 .inspiration-section {
     max-width: 1140px;
     max-height: 775px;
