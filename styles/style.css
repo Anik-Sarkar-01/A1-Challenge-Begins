@@ -49,7 +49,7 @@ nav ul .download-btn {
     text-align: center;
 }
 
-nav ul .download-btn:hover{
+nav ul .download-btn:hover {
     cursor: pointer;
 }
 
@@ -238,15 +238,15 @@ nav ul .download-btn:hover{
     border-radius: 16px;
 }
 
-/* current target content */
+/* current target styles and next target styles merged for some specific documents */
 .current-target {
     width: 1140px;
     height: 500px;
     margin: 145px auto 50px auto;
 }
 
-.current-target-title {
-    margin: 24px auto;
+.current-target-title , .next-target-title{
+    margin: 24px 0px;
     text-align: center;
 }
 
@@ -256,7 +256,7 @@ nav ul .download-btn:hover{
     margin-left: 130px;
 }
 
-.current-target-items {
+.current-target-cards {
     display: flex;
     justify-content: right;
     margin: 48px 0px;
@@ -274,7 +274,7 @@ nav ul .download-btn:hover{
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-.current-target-item {
+.current-target-card {
     width: 364px;
     height: 299px;
     padding: 40px;
@@ -282,12 +282,12 @@ nav ul .download-btn:hover{
     border-radius: 16px;
 }
 
-.current-target-item img {
+.current-target-card img {
     width: 56px;
     height: 56px;
 }
 
-.current-target-item h4 {
+.current-target-card h4 , .next-target-card-text h4 {
     margin: 8px 0px;
     color: rgb(13, 19, 33);
     font-size: 24px;
@@ -296,7 +296,7 @@ nav ul .download-btn:hover{
     margin: 8px 0px;
 }
 
-.current-target-item p {
+.current-target-card p, .next-target-card-text p {
     margin-bottom: 8px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -307,7 +307,7 @@ nav ul .download-btn:hover{
     opacity: 0.7;
 }
 
-.current-target-item a {
+.current-target-card a , .next-target-card-text a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -317,6 +317,44 @@ nav ul .download-btn:hover{
     text-decoration-line: underline;
     margin: 24px 0px;
 }
+
+/* next target styles */
+.next-target {
+    width: 1140px;
+    height: 870px;
+    margin: 100px auto 50px auto;
+}
+
+.next-target-description {
+    text-align: center;
+    max-width: 860px;
+    margin-left: 130px;
+    margin-bottom: 48px;
+}
+
+.next-target-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.next-target-card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    
+}
+
+.next-target-card-img img {
+    width: 90px;
+    height: 80px;
+}
+
 
 /* Support section styles */
 .support-section {
