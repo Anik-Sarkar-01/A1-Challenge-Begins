@@ -38,7 +38,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
-    margin-top: 24px;
+    margin: 24px;
 }
 
 .banner-description {
@@ -160,6 +160,185 @@ body {
     font-family: Azeret Mono;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     cursor: pointer;
+}
+
+/* inspiration section design */
+.inspiration-section {
+    width: 1140px;
+    height: 775px;
+    margin: 75px auto;
+}
+
+.inspiration-title {
+    width: 852px;
+    height: 37px;
+    margin: 0 auto;
+}
+
+.inspiration-description {
+    width: 852px;
+    height: 52px;
+    margin: 24px auto;
+}
+
+.inpiration-video {
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+}
+
+.inpiration-video iframe {
+    border-radius: 16px;
+}
+
+/* current target content */
+.current-target {
+    width: 1140px;
+    height: 500px;
+    margin: 111px auto;
+}
+
+.current-target-title {
+    width: 852px;
+    height: 37px;
+    margin: 24px auto;
+}
+
+.current-target-items {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    margin: 48px 0px;
+}
+
+.current-target-item {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-item img {
+    width: 56px;
+    height: 56px;
+}
+
+.current-target-item h4 {
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 8px 0px;
+}
+
+.current-target-item p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+.current-target-item a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+}
+
+/* Support section styles */
+
+.support-section {
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px 64px 48px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color:rgba(0, 0, 0, 0.3);
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.support-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-section-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 16px 0px;
+}
+
+.support-section-content p {
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 16px 0px;
+    opacity: 0.7;
+}
+
+form input[type=text] {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input::placeholder {
+    margin: 0px 10px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+}
+
+form input[type=submit] {
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
